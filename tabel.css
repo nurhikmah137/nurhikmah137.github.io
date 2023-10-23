@@ -1,0 +1,44 @@
+html{
+    background-color: rgb(235, 177, 207);
+}
+
+.atas{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 220, 177);
+}
+
+.gambar{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #beb4b4;
+}
+
+.bawah{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 220, 177);
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+}

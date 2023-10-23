@@ -1,0 +1,127 @@
+html{
+    background-color: rgb(235, 177, 207);
+}
+
+.atas{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 220, 177);
+}
+
+.gambar{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    height: -webkit-fill-availeble;
+    max-width: 100vh;
+    overflow-y: auto;
+    overflow-y: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.sidebar {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    left: 0;
+    padding: 0px;
+    background: #d071ab;
+    width: 260px;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+}
+
+.sidebar .top {
+    width: 260px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background-image: linear-gradient(to right, #b162a8, #e74dda);
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #edbee0;
+    border-bottom: 1px solid #edbee0;
+    border-right: 1px solid #edbee0;
+    border-left: 1px solid #edbee0;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+ul li:hover a {
+    padding-left: 100px;
+    background: #dbc0dc;
+    color: black;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+.main_content {
+    background: linear-gradient(rgba(199, 45, 135, 0.7), rgba(183, 84, 156, 0.7));
+    margin: 5px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.deskripsi{
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.pelaksanaan{
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+.pendaftaran{
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #dbc0dc;
+}
+
+.bawah{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 220, 177);
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+}
